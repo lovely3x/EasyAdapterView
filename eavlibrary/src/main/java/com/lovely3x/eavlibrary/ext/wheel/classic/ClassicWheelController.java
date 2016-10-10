@@ -49,6 +49,7 @@ public class ClassicWheelController implements WheelController {
      * 滚轮选择变化监听器
      */
     private WheelSelectedChangedListener[] mWheelSelectedChangedListeners;
+
     /**
      * 滚轮滚动变化监听器
      */
@@ -75,6 +76,7 @@ public class ClassicWheelController implements WheelController {
     public ClassicWheelController(WheelLayout wheelLayout, Context context) {
         this.mWheelNum = DEFAULT_WHEEL_NUM;
         this.mContext = context;
+        this.mWheelLayout = wheelLayout;
     }
 
     public ClassicWheelController(WheelLayout wheelLayout, Context context, int wheelNum) {

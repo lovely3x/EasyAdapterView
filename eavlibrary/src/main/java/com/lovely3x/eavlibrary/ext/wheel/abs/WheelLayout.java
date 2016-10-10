@@ -46,7 +46,7 @@ public class WheelLayout extends FrameLayout {
             String controller = styles.getString(R.styleable.WheelLayout_controller);
             if (controller != null) {
                 try {
-                    Constructor<?> clazz = Class.forName(controller).getConstructor(Context.class);
+                    Constructor<?> clazz = Class.forName(controller).getConstructor(WheelLayout.class, Context.class);
                     Object obj = clazz.newInstance(context);
                     if (obj instanceof WheelController) {
                         setWheelController((WheelController) obj);
