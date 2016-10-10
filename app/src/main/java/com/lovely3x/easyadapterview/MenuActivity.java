@@ -49,7 +49,7 @@ public class MenuActivity extends AppCompatActivity implements AdapterView.OnIte
                 "DateSelector",
                 "ClassicDateSelector",
                 "TimeWheelActivity",
-                "VerticalListView",
+                "HorizontalListView",
                 "AbstractWheelView"
         )));
         seavMenu.setOnItemClickListener(this);

@@ -21,7 +21,7 @@ EasyAdapterView
 ##### 只需要设置 `orientation` 为 `horizontal` 则为水平模式，`vertical `则为垂直模式
 
 
-##大家先来看看效果吧！
+##大家先来看看效果吧！（前方高能，全程无码大图）
 
 ## `WheelView` 截图
 ####三级城市联动效果
@@ -41,4 +41,4 @@ EasyAdapterView
 
 
 ## 水平 `ListView` 截图
-<img src="./screenshot/vertical_listview.png" width='400px'></img>
+<img src="./screenshot/horizontal_listview.png" width='400px'></img>
