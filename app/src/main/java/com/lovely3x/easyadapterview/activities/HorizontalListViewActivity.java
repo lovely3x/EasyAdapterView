@@ -3,6 +3,7 @@ package com.lovely3x.easyadapterview.activities;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -56,6 +57,7 @@ public class HorizontalListViewActivity extends BaseActivity<String> implements 
     @Override
     protected void handleData(View view, int position, String s) {
         TextView tv = (TextView) view.findViewById(R.id.tv_view_list_view_item_text);
+        tv.setGravity(Gravity.CENTER);
         tv.setText(s);
     }
 

@@ -88,8 +88,10 @@ public class MenuActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 9:
                 startActivity(new Intent(this, ClassicTimeWheelActivity.class));
+                break;
             case 10:
                 startActivity(new Intent(this, HorizontalListViewActivity.class));
+                break;
             case 11:
                 startActivity(new Intent(this, AbstractWheelViewActivity.class));
                 break;

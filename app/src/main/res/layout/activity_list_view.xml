@@ -12,8 +12,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         app:dividerHeight="1dp"
-        app:divider="@color/colorAccent"
-        app:mode="listView"
+        app:mode="endLessListView"
         app:orientation="vertical" />
 
     <View
