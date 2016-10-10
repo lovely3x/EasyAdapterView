@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_list_view_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lovely3x.eavlibrary.EasyAdapterView
+        android:id="@+id/eav_activity_list_view_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:dividerHeight="1dp"
+        app:divider="@color/colorAccent"
+        app:mode="listView"
+        app:orientation="vertical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eaeaea" />
+
+    <EditText
+        android:id="@+id/et_activity_list_view_new_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New position" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_activity_list_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_activity_list_view_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="First" />
+
+
+        <Button
+            android:id="@+id/b_activity_list_view_last"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Last" />
+
+
+        <Button
+            android:id="@+id/b_activity_list_view_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Select" />
+
+        <Button
+            android:id="@+id/b_activity_list_view_offset_from_top"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FromTop" />
+    </LinearLayout>
+</LinearLayout>

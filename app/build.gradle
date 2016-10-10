@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    buildToolsVersion BUILD_TOOL_VERSION;
+    compileSdkVersion COMPILE_SDK_VERSION
+
+
+    defaultConfig {
+        applicationId APP_PACKAGE
+        minSdkVersion MIN_SDK_VERSION
+        targetSdkVersion TARGET_SDK_VERSIO
+
+        versionCode APP_VERSION
+        versionName APP_VERSION_NAME
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile project(':eavlibrary')
+
+    compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
+
+    compile 'com.jakewharton:butterknife:8.2.1'
+
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+}

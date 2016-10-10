@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EAVLibrary</string>
+
+    <string name="format_year">%s年</string>
+    <string name="format_month">%s月</string>
+    <string name="format_day">%s日</string>
+    <string name="format_minute">%s分</string>
+    <string name="format_hour">%s时</string>
+
+    <array name="groups">
+        <item>Yun</item>
+        <item>Dan</item>
+        <item>Jean</item>
+
+    </array>
+</resources>

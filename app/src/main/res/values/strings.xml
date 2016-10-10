@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EasyAdapterView</string>
+    <string name="new_position">New position</string>
+    <string name="default_year">2016年</string>
+</resources>

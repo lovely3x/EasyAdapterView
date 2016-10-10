@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_activity_main_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+
+    tools:context="com.lovely3x.easyadapterview.MainActivity">
+
+
+    <com.lovely3x.eavlibrary.EasyAdapterView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/eav_activity_main_sample"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#F00"
+        android:layout_weight="1"
+        android:dividerHeight="100dp"
+        android:scrollbars="horizontal"
+
+        app:mode="endLessWheelView"
+        app:orientation="horizontal" />
+
+    <ListView
+        android:id="@+id/lv_activity_main_sample"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="#F00"
+        android:layout_weight="0"
+        android:dividerHeight="20dp"
+        android:scrollbars="vertical"
+        android:visibility="visible">
+
+    </ListView>
+</LinearLayout>

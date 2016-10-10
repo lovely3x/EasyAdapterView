@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_view_gallery_item_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFF">
+
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/iv_view_gallery_item_img"
+        android:layout_width="180dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_gallery" />
+
+    <TextView
+        android:id="@+id/tv_view_gallery_item_index"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F55" />
+
+</FrameLayout>

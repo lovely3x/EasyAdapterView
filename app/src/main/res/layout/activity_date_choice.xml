@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_activity_date_choice_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+
+    <com.lovely3x.easyadapterview.widgets.DateWheelView
+        android:id="@+id/dwv_activity_date_choice_date_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" />
+</LinearLayout>

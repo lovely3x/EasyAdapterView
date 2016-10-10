@@ -1,0 +1,46 @@
+<resources>
+
+
+    <!--EAV-->
+    <declare-styleable name="EasyAdapterView">
+
+        <!--重力方向-->
+        <attr name="orientation" format="enum">
+            <!--垂直-->
+            <enum name="vertical" value="1" />
+            <!--水平-->
+            <enum name="horizontal" value="2" />
+        </attr>
+
+        <!--视图模式-->
+        <attr name="mode" format="enum">
+            <!--传统的ListView模式-->
+            <enum name="listView" value="1" />
+            <!--无尽listView模式-->
+            <enum name="endLessListView" value="2" />
+            <!--滚轮模式-->
+            <enum name="wheelView" value="3" />
+            <!--无尽滚轮模式-->
+            <enum name="endLessWheelView" value="4" />
+        </attr>
+
+        <!--分割线高度-->
+        <attr name="dividerHeight" format="dimension" />
+
+        <!--分割线对象-->
+        <attr name="divider" format="reference" />
+
+
+    </declare-styleable>
+
+
+    <!--滚轮布局属性-->
+    <declare-styleable name="WheelLayout">
+
+        <!--滚轮布局控制器-->
+        <attr name="controller" format="string" />
+
+    </declare-styleable>
+
+
+</resources>

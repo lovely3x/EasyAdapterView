@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_wheel_view_time_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_wheel_view_time_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.lovely3x.eavlibrary.ext.wheel.InnerWheel
+            android:id="@+id/iw_wheel_view_time_hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f7f7f7"
+            app:dividerHeight="0dp"
+            app:mode="endLessWheelView"
+            app:orientation="vertical" />
+
+
+        <com.lovely3x.eavlibrary.ext.wheel.InnerWheel
+            android:id="@+id/iw_wheel_view_time_minute"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f7f7f7"
+            app:dividerHeight="0dp"
+            app:mode="endLessWheelView"
+            app:orientation="vertical" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wheel_mask_shadow" />
+
+</FrameLayout>

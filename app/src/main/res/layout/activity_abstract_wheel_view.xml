@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_abstract_wheel_view_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+
+    <com.lovely3x.eavlibrary.ext.wheel.abs.WheelLayout
+        android:id="@+id/wl_activity_abstract_wheel_view_wheel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:visibility="visible"
+        android:background="#eee" />
+
+
+    <com.lovely3x.eavlibrary.ext.wheel.abs.WheelLayout
+        android:id="@+id/wl_activity_abstract_wheel_view_two_wheel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:background="#eee" />
+
+    <com.lovely3x.eavlibrary.ext.wheel.abs.WheelLayout
+        android:id="@+id/wl_activity_abstract_wheel_view_city_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:visibility="visible"
+        android:layout_marginTop="20dp"
+        android:background="#eee" />
+
+</LinearLayout>

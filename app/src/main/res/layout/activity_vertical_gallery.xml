@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_vertical_gallery_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lovely3x.eavlibrary.EasyAdapterView
+        android:id="@+id/eav_activity_vertical_gallery_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dividerHeight="10dp"
+        app:mode="wheelView"
+        app:orientation="vertical" />
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/accb_activity_vertical_gallery_endless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top" />
+</FrameLayout>

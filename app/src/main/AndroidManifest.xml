@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lovely3x.easyadapterview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".activities.GalleryActivity" />
+
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activities.VerticalGalleryActivity" />
+
+        <activity android:name=".activities.ListViewActivity" />
+
+        <activity android:name=".activities.WheelActivity" />
+
+        <activity android:name=".activities.VerticalWheelActivity" />
+
+        <activity android:name=".activities.BannerActivity" />
+
+        <activity android:name=".activities.PtrBannerActivity" />
+
+        <!--日期选择界面-->
+        <activity android:name=".activities.DateChoiceActivity" />
+
+        <!--通用日期滚轮选择界面-->
+        <activity android:name=".activities.ClassicDateWheelActivity" />
+
+        <!--通用经典时间选择界面-->
+        <activity android:name=".activities.ClassicTimeWheelActivity" />
+
+        <!--水平方向上的ListView-->
+        <activity android:name=".activities.HorizontalListViewActivity" />
+
+        <!--概述 抽象 WheelView-->
+        <activity android:name=".activities.AbstractWheelViewActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_wheel_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lovely3x.eavlibrary.EasyAdapterView
+        android:id="@+id/eav_activity_wheel_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:dividerHeight="0dp"
+        app:mode="endLessWheelView"
+        app:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/et_activity_vertical_wheel_new_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_position"
+        android:inputType="numberSigned" />
+
+    <LinearLayout
+        android:id="@+id/ll_activity_vertical_wheel_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_activity_vertical_wheel_first"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="First" />
+
+
+        <Button
+            android:id="@+id/b_activity_vertical_wheel_last"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Last" />
+
+        <Button
+            android:id="@+id/b_activity_vertical_wheel_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Select" />
+    </LinearLayout>
+</LinearLayout>

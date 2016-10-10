@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_wheel_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lovely3x.eavlibrary.EasyAdapterView
+        android:id="@+id/eav_activity_wheel_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dividerHeight="0dp"
+        app:mode="wheelView"
+        app:orientation="horizontal" />
+
+</LinearLayout>
